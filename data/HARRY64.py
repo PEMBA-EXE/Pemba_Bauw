@@ -57,7 +57,7 @@ except ModuleNotFoundError:
 
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
-version='OPEN SOURCE'
+version='FREE'
 file_name=[]
 ugen2=[]
 logincookie=[]
@@ -244,9 +244,9 @@ logo=("""     ___ ___                     _____.___.
           \/      \/              \/       """)
 def info():
         print(f"""\x1b[37m----------------------------------------------
- AUTHOR     : HARRY BABE
- GITHUB     : HARRY-EXE
- FACEBOOK   : HARRY AKUMA は
+ AUTHOR     : SAMEL
+ GITHUB     : Grgzzv1
+ FACEBOOK   : PEMBA_GRGZ
  VERSION    : \x1b[37m\x1b[38;5;196m{version}\x1b[37m
 \x1b[37m----------------------------------------------""")
 def banner():
