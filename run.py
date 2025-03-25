@@ -17,7 +17,7 @@ def main():
     elif architecture[0] == '64bit':
         arc = "64BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
-        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
+        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING Pemba_Bauw ')
         import data.HARRY64
     else:
         arc = "INVALID"
