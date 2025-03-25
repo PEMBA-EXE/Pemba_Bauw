@@ -1,4 +1,4 @@
-#Open-Sourced By Harry Akumaa.
+#Open-Sourced By Pemba Grgzz.
 
 #-----------------[ IMPORT-MODULE ]-------------------#
 
@@ -547,7 +547,7 @@ def process_file(file_path, show_cookies):
 #-----------------[ CONTACT ]-----------------#
 
 def contact():
-        os.system('xdg-open https://www.facebook.com/harryexe')
+        os.system('https://www.facebook.com/profile.php?id=100006019172012')
 
 #-------------------[ GROUPS ]----------------#
 
