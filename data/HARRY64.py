@@ -223,7 +223,7 @@ def clear():
 def back():
         login()
 def contact():
-        os.system('xdg-open https://www.facebook.com/harryexeee')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100006019172012')
         back()
 def linex():
         print("""\x1b[37m----------------------------------------------""")
@@ -378,7 +378,7 @@ def login123():
         if lgmt == '1':
                 login_lagi334()
         elif lgmt == '0':
-                groups()
+                groups('https://m.me/j/AbZkO8FLbhy7lckN/')
         else:
                 linex()
                 animation(' \x1b[38;5;196m[\x1b[37m×\x1b[38;5;196m]\x1b[37m OPTION NOT FOUND')
