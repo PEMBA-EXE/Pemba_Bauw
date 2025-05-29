@@ -1,4 +1,4 @@
-#Open-Sourced By Pemba Grgzz.
+#Open-Sourced By PEMBA-EXE
 
 #-----------------[ IMPORT-MODULE ]-------------------#
 
@@ -57,7 +57,7 @@ except ModuleNotFoundError:
 
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
-version='FREE'
+version='OPEN SOURCE'
 file_name=[]
 ugen2=[]
 logincookie=[]
@@ -223,7 +223,7 @@ def clear():
 def back():
         login()
 def contact():
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100006019172012')
+        os.system('xdg-open https://www.facebook.com/PEMBAEXE')
         back()
 def linex():
         print("""\x1b[37m----------------------------------------------""")
@@ -244,9 +244,9 @@ logo=("""     ___ ___                     _____.___.
           \/      \/              \/       """)
 def info():
         print(f"""\x1b[37m----------------------------------------------
- AUTHOR     : SAMEL
- GITHUB     : Grgzzv1
- FACEBOOK   : PEMBA_GRGZ
+ AUTHOR     : PEMBA BABE
+ GITHUB     : PEMBA-EXE
+ FACEBOOK   : PEMBA GRGZ
  VERSION    : \x1b[37m\x1b[38;5;196m{version}\x1b[37m
 \x1b[37m----------------------------------------------""")
 def banner():
@@ -372,13 +372,13 @@ def login123():
         print(""" \x1b[38;5;196m>>\x1b[37m USE DATR COOKIE """)
         linex()
         print(""" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m LOGIN USING COOKIE """)
-        print(""" \x1b[38;5;196m[\x1b[37m0\x1b[38;5;196m]\x1b[37m JOIN GROUPS  """)
+        print(""" \x1b[38;5;196m[\x1b[37m0\x1b[38;5;196m]\x1b[37m CONTACT OWNER  """)
         linex()
         lgmt = input(' CHOOSE : ')
         if lgmt == '1':
                 login_lagi334()
         elif lgmt == '0':
-                groups('https://m.me/j/AbZkO8FLbhy7lckN/')
+                groups()
         else:
                 linex()
                 animation(' \x1b[38;5;196m[\x1b[37m×\x1b[38;5;196m]\x1b[37m OPTION NOT FOUND')
@@ -462,12 +462,13 @@ def menu(my_name,my_id):
         banner()
         info()
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m {greeting}{uname} ")
+        print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m WELCOME TO PEMBA'S TOOL '')
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m YOUR PUBLIC IP : {ipadd}")
         linex()
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m COOKIE USER    : {my_name}")
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m COOKIE USER ID : {my_id} ")
         linex()
-        print(f""" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m CRACK PUBLIC       \x1b[38;5;196m[\x1b[37m4\x1b[38;5;196m]\x1b[37m RESET DETAILS""")
+        print(f""" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m CRACK FB FRIENDS       \x1b[38;5;196m[\x1b[37m4\x1b[38;5;196m]\x1b[37m RESET DETAILS""")
         print(f""" \x1b[38;5;196m[\x1b[37m2\x1b[38;5;196m]\x1b[37m CRACK FILE         \x1b[38;5;196m[\x1b[37m5\x1b[38;5;196m]\x1b[37m CONTACT ADMIN""")
         print(f""" \x1b[38;5;196m[\x1b[37m3\x1b[38;5;196m]\x1b[37m CHECK RESULTS      \x1b[38;5;196m[\x1b[37m6\x1b[38;5;196m]\x1b[37m COMMAND GROUPS""")
         print(f""" \x1b[38;5;196m[\x1b[37m0\x1b[38;5;196m]\x1b[37m LOGOUT MENU""")
@@ -547,13 +548,13 @@ def process_file(file_path, show_cookies):
 #-----------------[ CONTACT ]-----------------#
 
 def contact():
-        os.system('https://www.facebook.com/profile.php?id=100006019172012')
+        os.system('xdg-open https://www.facebook.com/PEMBAEXE')
 
 #-------------------[ GROUPS ]----------------#
 
 def groups():
         linex()
-        print("OPEN SOURCE VERSION")
+        print("FREE")
 
 #-------------------[ CRACK-PUBLIK ]----------------#
 
@@ -562,7 +563,7 @@ def harry_public():
                 token = open('data/.token.txt','r').read()
                 cok = open('data/.cok.txt','r').read()
         except IOError:
-                print('[×] INVIALD COOKIE ')
+                print('[×] TRY ANOTHER COOKIE ')
                 time.sleep(5)
                 login()
         try:
@@ -654,8 +655,8 @@ def crack_file():
 
 def setting():
         linex()
-        print(" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m ONLY OLD IDZ")
-        print(" \x1b[38;5;196m[\x1b[37m2\x1b[38;5;196m]\x1b[37m ONLY NEW IDZ")
+        print(" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m ONLY FF IDZ")
+        print(" \x1b[38;5;196m[\x1b[37m2\x1b[38;5;196m]\x1b[37m ONLY TIKTOK IDZ")
         print(" \x1b[38;5;196m[\x1b[37m3\x1b[38;5;196m]\x1b[37m BOTH MIX IDZ")
         linex()
         hu = input(' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m CHOOSE : ')
@@ -694,6 +695,7 @@ def passwrd():
         banner()
         info()
         print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOTAL SCANNABLE IDS    :',str(len(id)))
+        print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m  PEMBA'S CREATION ')
         print(" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m YOU STARTED CLONING AT : "+time.strftime("%H:%M")+" "+ tag)
         linex()
         print(f' \x1b[38;5;196m>>\x1b[37m USE FLIGHT MODE EVERY 500 IDS ')
