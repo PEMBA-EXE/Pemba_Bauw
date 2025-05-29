@@ -695,7 +695,7 @@ def passwrd():
         banner()
         info()
         print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOTAL SCANNABLE IDS    :',str(len(id)))
-        print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m  PEMBA'S CREATION ')
+        print(f" \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m  PEMBA'S CREATION ")
         print(" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m YOU STARTED CLONING AT : "+time.strftime("%H:%M")+" "+ tag)
         linex()
         print(f' \x1b[38;5;196m>>\x1b[37m USE FLIGHT MODE EVERY 500 IDS ')
