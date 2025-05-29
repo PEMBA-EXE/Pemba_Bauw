@@ -57,7 +57,7 @@ except ModuleNotFoundError:
 
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
-version='OPEN SOURCE'
+version='FEE'
 file_name=[]
 ugen2=[]
 logincookie=[]
@@ -242,7 +242,9 @@ logo = (r"""
  | |_) |  _| | |\/| |  _ \ / _ \
  |  __/| |___| |  | | |_) / ___ \
  |_|   |_____|_|  |_|____/_/   \_\
-""" + "\x1b[38;5;196m")
+
+\x1b[38;5;196m
+""")
 def info():
         print(f"""\x1b[37m----------------------------------------------
  AUTHOR     : PEMBA BABE
