@@ -6,7 +6,7 @@ import time
 import atexit
 import shutil
 
-music_path = "/sdcard/Music/song.mp3"
+music_path = "/sdcard/Song.mp3"
 
 # Check if mpv is installed
 if not shutil.which("mpv"):
