@@ -462,7 +462,7 @@ def menu(my_name,my_id):
         banner()
         info()
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m {greeting}{uname} ")
-        print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m WELCOME TO PEMBA'S TOOL '')
+        print(f"\x1b[37m\x1b[38;5;196m\x1b[37m\x1b[38;5;196m\x1b[37m WELCOME TO PEMBA'S TOOL")
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m YOUR PUBLIC IP : {ipadd}")
         linex()
         print(f" \x1b[37m\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m COOKIE USER    : {my_name}")
