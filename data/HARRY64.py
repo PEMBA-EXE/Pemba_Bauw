@@ -57,7 +57,7 @@ except ModuleNotFoundError:
 
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
-version='FEE'
+version='FREE'
 file_name=[]
 ugen2=[]
 logincookie=[]
@@ -715,47 +715,15 @@ def passwrd():
                                         pass
                                 else:
                                         pwv.append(nmf)
-                                        pwv.append(frs+lst)
-                                        pwv.append(frs+'@'+lst)
-                                        pwv.append(frs+'#'+lst)
-                                        pwv.append(lst+frs)
-                                        pwv.append(frs+'12')
-                                        pwv.append(frs+'123')
-                                        pwv.append(frs+'321')
-                                        pwv.append(frs+'1234')
-                                        pwv.append(frs+'12345')
-                                        pwv.append(frs+'@123')
-                                        pwv.append(frs+'@1234')
-                                        pwv.append(frs+lst+'123')
-                                        pwv.append(frs+lst+'1234')
-                                        pwv.append(frs+lst+'@123')
-                                        pwv.append(frs+lst+'@1234')
-                                        pwv.append(frs+lst+'321')
-                                        pwv.append(lst+frs+'123')
-                                        pwv.append(lst+frs+'111')
+                                        pwv.append(frs+lst)                                        
+                                        pwv.append(lst+frst)
                         else:
                                 if len(frs)<3:
                                         pwv.append(nmf)
                                 else:
                                         pwv.append(nmf)
-                                        pwv.append(frs+lst)
-                                        pwv.append(frs+'@'+lst)
-                                        pwv.append(frs+'#'+lst)
+                                        pwv.append(frs+lst)                                        
                                         pwv.append(lst+frs)
-                                        pwv.append(frs+'12')
-                                        pwv.append(frs+'123')
-                                        pwv.append(frs+'321')
-                                        pwv.append(frs+'1234')
-                                        pwv.append(frs+'12345')
-                                        pwv.append(frs+'@123')
-                                        pwv.append(frs+'@1234')
-                                        pwv.append(frs+lst+'123')
-                                        pwv.append(frs+lst+'1234')
-                                        pwv.append(frs+lst+'@123')
-                                        pwv.append(frs+lst+'@1234')
-                                        pwv.append(frs+lst+'321')
-                                        pwv.append(lst+frs+'123')
-                                        pwv.append(lst+frs+'111')
                         if 'ya' in pwpluss:
                                 for xpwd in pwnya:
                                         pwv.append(xpwd)
